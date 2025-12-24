@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- 
 }
 
 .background {
@@ -371,34 +370,34 @@
   align-items: center;
 }
 
-.navforsmaller{
+.navforsmaller {
   display: none;
 }
 
-.buttomPaynow{
+.buttomPaynow {
   display: none;
 }
 
-.pincodeBoxsmall{
+.pincodeBoxsmall {
   display: none;
 }
 
-.discountBoxsmall{
+.discountBoxsmall {
   display: none;
 }
 
-.disountpagedivsec{
+.disountpagedivsec {
   display: none;
 }
 
-.backgroundBlu{
+.backgroundBlu {
   background-color: rgb(255, 255, 255);
   filter: brightness(35%);
   font-family: "Roboto", sans-serif;
-
+  height: 100vh;
 }
 
-.discountpagediv{
+.discountpagediv {
   z-index: 5;
   position: fixed;
   right: 0px;
@@ -410,7 +409,7 @@
 }
 
 .applycoupon {
-  position:relative;
+  position: relative;
   left: 50%;
   transform: translate(-50%);
   padding: 50px;
@@ -418,7 +417,7 @@
   box-shadow: 2px 2px 2px 1px rgb(206, 205, 205);
 }
 
-.canceldiscount{
+.canceldiscount {
   position: absolute;
   right: 10px;
   top: 10px;
@@ -431,22 +430,21 @@
   font-weight: 600;
 }
 
-
 .applycoupon > div {
   display: flex;
 }
 
-.applycoupon > div input{
-  border: 1px solid rgb(16,132,126) ;
+.applycoupon > div input {
+  border: 1px solid rgb(16, 132, 126);
   padding: 10px;
   width: 260px;
   border-radius: 5px 0px 0px 5px;
   outline: none;
 }
 
-.applycoupon > div button{
+.applycoupon > div button {
   border: none;
-  background-color: rgb(16,132,126);
+  background-color: rgb(16, 132, 126);
   color: white;
   border-radius: 0px 5px 5px 0px;
   font-weight: 500;
@@ -455,7 +453,7 @@
   padding: 10px 35px 10px 35px;
 }
 
-.firstdicountpro{
+.firstdicountpro {
   display: flex;
 }
 
@@ -465,47 +463,46 @@
   border-radius: 4px;
 }
 
-.specialdiscount{
+.specialdiscount {
   font-weight: 500;
   font-size: 15px;
   margin-top: 20px;
   margin-bottom: 5px;
 }
-.detailsofproduct{
-margin-left: 10px;
+.detailsofproduct {
+  margin-left: 10px;
 }
 
-.detailsofproduct :nth-child(1){
+.detailsofproduct :nth-child(1) {
   font-weight: 500;
   font-size: 12.5px;
 }
 
-
-.detailsofproduct :nth-child(2){
+.detailsofproduct :nth-child(2) {
   font-size: 12.5px;
   color: rgb(54, 54, 54);
 }
 
-.addcartbtndis{
+.addcartbtndis {
   margin-top: 15px;
-  border: 1px solid rgb(16,132,126);
+  border: 1px solid rgb(16, 132, 126);
   border-radius: 3px;
   background-color: transparent;
-  color: rgb(16,132,126);
+  color: rgb(16, 132, 126);
   font-weight: 500;
   padding: 6px 12px 6px 12px;
   cursor: pointer;
 }
 
-.mainmiddleoffers{
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- gap: 14px;
+.mainmiddleoffers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
 }
 
-.firstofferdis{
+.firstofferdis {
   width: 85%;
   border-radius: 5px;
   box-shadow: 1.2px 1.2px 5px 1px rgb(224, 221, 221);
@@ -513,18 +510,17 @@ margin-left: 10px;
 }
 
 @media screen and (max-width: 750px) {
-
-  .maxScreenNav{
+  .maxScreenNav {
     display: none;
   }
 
-  .navforsmaller{
+  .navforsmaller {
     display: block;
     box-shadow: 2.5px 2.5px 2.5px rgb(211, 211, 211);
     height: 100px;
   }
 
-  .mobileprocess{
+  .mobileprocess {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -533,17 +529,17 @@ margin-left: 10px;
     margin-top: 60px;
   }
 
-  .mobileprocess img{
-    margin-right : 5px;
+  .mobileprocess img {
+    margin-right: 5px;
     height: 18px;
   }
 
-  .mobileprocess p{
-   font-size: 13px;
-   color: rgb(83, 82, 82);
+  .mobileprocess p {
+    font-size: 13px;
+    color: rgb(83, 82, 82);
   }
 
-  .hrLine{
+  .hrLine {
     width: 80px;
     background-color: rgb(59, 59, 59);
   }
@@ -594,7 +590,7 @@ margin-left: 10px;
     margin-right: 10px;
   }
 
-  .buttomPaynow{
+  .buttomPaynow {
     position: fixed;
     height: 65px;
     width: 100%;
@@ -605,182 +601,173 @@ margin-left: 10px;
     display: block;
   }
 
-.viewsum{
-  position: fixed;
-  left: 15px;
-  bottom: 8px;
-}
+  .viewsum {
+    position: fixed;
+    left: 15px;
+    bottom: 8px;
+  }
 
-.viewsum p{
-  font-size: 20px;
-  font-weight: 500;
-}
+  .viewsum p {
+    font-size: 20px;
+    font-weight: 500;
+  }
 
-.viewsum a{
-  font-size: 13px;
-  text-decoration: none;
-  color: rgb(16,132,126);
-  font-weight: 500;
+  .viewsum a {
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(16, 132, 126);
+    font-weight: 500;
+  }
 
-}
+  .proceedpaybotm {
+    position: fixed;
+    right: 10px;
+    bottom: 7px;
+    background-color: rgb(223, 70, 34);
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 17px 50px 17px 50px;
+  }
 
+  .copyright {
+    margin-bottom: 100px;
+  }
 
-.proceedpaybotm{
-  position: fixed;
-  right: 10px;
-  bottom: 7px;
-  background-color: rgb(223,70,34);
-  border: none;
-  color: white;
-  font-size: 15px;
-  border-radius: 5px;
-  padding: 17px 50px 17px 50px;
-}
+  .pincodeBoxsmall {
+    /* position: relative; */
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 2px 2px rgb(230, 228, 228);
+    border-radius: 3px;
+  }
 
-.copyright{
-  margin-bottom: 100px;
-}
+  .finalpayblesmall {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-weight: 500;
+    font-size: 17px;
+    color: rgb(46, 46, 46);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 0.5px solid rgb(228, 225, 225);
+  }
 
+  .finalpayblesmall :nth-child(1) {
+    text-align: left;
+    padding-left: 15px;
+  }
+  .finalpayblesmall :nth-child(2) {
+    text-align: right;
+    padding-right: 15px;
+  }
 
-.pincodeBoxsmall {
-  /* position: relative; */
-  display: block;
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  background-color: white;
-  box-shadow: 1px 1px 2px 2px rgb(230, 228, 228);
-  border-radius: 3px;
-}
+  .pincodeDivsmall {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 0px 24px 0px;
+  }
 
-.finalpayblesmall{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  font-weight: 500;
-  font-size: 17px;
-  color: rgb(46, 46, 46);
-  padding-top: 12px;
-  padding-bottom: 12px;
-  border-bottom: 0.5px solid rgb(228, 225, 225);
-}
+  .pincodeDivsmall img {
+    position: absolute;
+    left: 14px;
+    z-index: 1;
+  }
 
-.finalpayblesmall :nth-child(1){
-  text-align: left;
-  padding-left: 15px;
-}
-.finalpayblesmall :nth-child(2){
-  text-align: right;
-  padding-right: 15px;
-}
-
-
-
-
-.pincodeDivsmall {
-  display: flex;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-  padding: 24px 0px 24px 0px;
-}
-
-.pincodeDivsmall img {
-  position: absolute;
-  left: 14px;
-  z-index: 1;
-}
-
-.pincodeDivsmall input {
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: 1px solid black;
-  /* padding: 5px 0px 5px 20px;
+  .pincodeDivsmall input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    /* padding: 5px 0px 5px 20px;
   margin-right: 35px; */
-  width: 75%;
-  padding: 2px 0px 4px 20px;
-  position: absolute;
-  left: 14px;
-  top: 15px;
-}
+    width: 75%;
+    padding: 2px 0px 4px 20px;
+    position: absolute;
+    left: 14px;
+    top: 15px;
+  }
 
-.pincodeDivsmall input:focus {
-  outline-width: 0;
-}
+  .pincodeDivsmall input:focus {
+    outline-width: 0;
+  }
 
-.pincodeDivsmall button {
-  position: absolute;
-  right: 12px;
-  background-color: rgb(0, 183, 186);
-  border: none;
-  color: white;
-  padding: 6px 9px 6px 9px;
-  border-radius: 4px;
-  cursor: pointer;
-}
+  .pincodeDivsmall button {
+    position: absolute;
+    right: 12px;
+    background-color: rgb(0, 183, 186);
+    border: none;
+    color: white;
+    padding: 6px 9px 6px 9px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
 
-.pincodeShowsmall {
-  display: flex;
-  position: relative;
-  align-items: center;
-  padding: 14px 0px 14px 10px;
-}
+  .pincodeShowsmall {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 14px 0px 14px 10px;
+  }
 
-.pincodeShowsmall p {
-  margin-left: 5px;
-  font-size: 13px;
-}
+  .pincodeShowsmall p {
+    margin-left: 5px;
+    font-size: 13px;
+  }
 
-.pincodeShowsmall button {
-  border: none;
-  background-color: transparent;
-  font-weight: 500;
-  color: rgb(0, 183, 186);
-  cursor: pointer;
-  position: absolute;
-  right: 25px;
-}
+  .pincodeShowsmall button {
+    border: none;
+    background-color: transparent;
+    font-weight: 500;
+    color: rgb(0, 183, 186);
+    cursor: pointer;
+    position: absolute;
+    right: 25px;
+  }
 
+  .discountBoxsmall {
+    display: block;
+    background-color: white;
+    box-shadow: 1px 1px 2px 2px rgb(224, 223, 223);
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 
-.discountBoxsmall {
-  display: block;
-  background-color: white;
-  box-shadow: 1px 1px 2px 2px rgb(224, 223, 223);
-  border-radius: 5px;
-  margin-top: 15px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
+  .disocountDivsmall {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 12px 0px 12px 15px;
+    cursor: pointer;
+  }
 
-.disocountDivsmall {
-  display: flex;
-  align-items: center;
-  position: relative;
-  padding: 12px 0px 12px 15px;
-  cursor: pointer;
-}
+  .disocountDivsmall p {
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 8px;
+  }
 
-.disocountDivsmall p {
-  font-size: 17px;
-  font-weight: 500;
-  margin-left: 8px;
-}
+  .discountarrowsmall {
+    position: absolute;
+    right: 18px;
+  }
 
-.discountarrowsmall {
-  position: absolute;
-  right: 18px;
-}
-
-
-.discountpagediv{
-  z-index: 5;
-  position: fixed;
-  right: 0px;
-  top: 0px;
-  width: 100vw;
-  height: 100%;
-  background-color: white;
-  display: block;
-}
-
+  .discountpagediv {
+    z-index: 5;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 100vw;
+    height: 100%;
+    background-color: white;
+    display: block;
+  }
 }

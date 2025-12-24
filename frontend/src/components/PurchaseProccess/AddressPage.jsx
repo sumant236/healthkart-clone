@@ -37,7 +37,6 @@ function AddressPage() {
 
   const [openModel, setOpenModel] = useState(false)
   const addresses = useSelector((state) => state.address.addresses);
-  const selectAddress = useSelector((state) => state.address.selectAddress);
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
@@ -152,7 +151,6 @@ function AddressPage() {
     </div>
 
 <div className={openModel ? style.modelshow : style.modelhide} >
-{console.log(details)}
 <div className={style.addaddressdiv}>
     <p>Add New Address</p>
     <img onClick={() => setOpenModel(false)}
@@ -238,7 +236,6 @@ function AddressPage() {
       dispatch(add_address({...details, id : v4()}))
       setOpenModel(false)
     }} className={style.savedelbtn} >Save & Deliver</button>
-    {console.log(selectAddress)}
   </div>
 </div>
 

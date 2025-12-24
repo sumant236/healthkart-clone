@@ -32,8 +32,8 @@ export const SwiperSlider = () => {
                 )
             }}
             >
-            {images.map((image) => (
-                <img src={image.imgUrl} className= {styles.swiperImg } alt="Swiper Slider"/>
+            {images.map((image, index) => (
+                <img src={image.imgUrl} className= {styles.swiperImg } alt="Swiper Slider" key={index}/>
             ))}
         </Carousel>
     </div>

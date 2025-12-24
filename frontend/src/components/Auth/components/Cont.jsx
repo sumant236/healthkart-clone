@@ -20,7 +20,6 @@ const Cont = () => {
         {user && user.email }
         {user && user.displayName }
         <p>{user.displayName}</p>
-        {console.log(user)}
       </div>
       <div>
         <button  onClick={handleLogout}>

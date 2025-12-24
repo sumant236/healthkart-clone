@@ -1,10 +1,9 @@
-import React, { useState } from "react";
-import Button from "@material-ui/core/Button";
+import { useState } from "react";
 import Menu from "@material-ui/core/Menu";
-import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
+import { createTheme, ThemeProvider } from "@material-ui/core/styles";
 import { MenuItem } from "@mui/material";
 import Styles from "../css/CustomerDrop.module.css"
-const theme = createMuiTheme({});
+const theme = createTheme({});
 const CustomerDrop = () => {
   const [anchorEl, setAnchorEl] = useState(null);
   const [open, setOpen] = useState(false);

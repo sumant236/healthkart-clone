@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import Button from "@material-ui/core/Button";
 import Menu from "@material-ui/core/Menu";
-import { createMuiTheme, ThemeProvider } from "@material-ui/core/styles";
+import { createTheme, ThemeProvider } from "@material-ui/core/styles";
 import LoginSIgnup from "../Auth/LoginSIgnup";
 import Styles from "./AccountDropDown.module.css"
 import { Link, useNavigate } from "react-router-dom";
 import { MenuItem } from "@mui/material";
 import { useUserAuth } from "../Auth/context/UserAuthContext";
-const theme = createMuiTheme({});
+const theme = createTheme({});
 const AccountDrop = () => {
   const [anchorEl, setAnchorEl] = useState(null);
   const [open, setOpen] = useState(false);
