@@ -63,7 +63,7 @@ You can also take the glimpse of our Project, just follow the below steps:
 
 ## Demo 🎥
 
--Deployed Link: [HealthKart-clone](https://healthkart-mu.vercel.app/)
+-Deployed Link: [HealthKart-clone](https://healthkart-clone-app.vercel.app/)
 
 
 <br/>
